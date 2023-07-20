@@ -1,0 +1,218 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+#braided-girl {
+    border-radius: 20px;
+    height: 400px;
+    width: auto;
+}
+
+#logo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+
+#profile-pic {
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#CTA {
+    margin-top: 30px;
+    border-radius: 30px;
+    padding:15px;
+    background-color: black;
+    width: 250px;
+    font-size: 20px;
+    color:white;
+    font-family:'Roboto Slab', serif;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container {
+    background: linear-gradient(-15deg, black 40%, white 40%);
+    height: 100vh;
+    margin: 0;
+}
+
+.more-info {
+    background: linear-gradient(-15deg, white 40%, black 40%);
+    height: 90vh;
+    margin: 0;
+}
+.pull-in {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.reviewer {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.more-info h4 {
+    margin-top: 10px;
+    text-align:right;
+}
+
+.review-text {
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.review-name {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.rating {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 5px;
+    align-items: center;
+}
+.button-and-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+}
+
+.entire-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#booking-button {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 125px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.material-symbols-rounded {
+    color: gold;
+}
+
+#tagline {
+    width: 500px;
+    font-size: 50px;
+    font-size: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#rating-num {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.image-container {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 30px;
+    width: 550px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    
+}
+
+#CTA-text {
+    width:800px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+#CTA-button {
+    margin: 70px;
+    width:350px;    
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-125px);
+}
